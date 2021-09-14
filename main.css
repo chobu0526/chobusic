@@ -13,13 +13,13 @@ a {
   text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.377);
 }
 
-#chobu_main_header .chobu_header_navi a:hover {
+a:hover {
   color: #ffffff;
 }
 
 body {
   min-width: 600px;
-  background-color: rgb(88, 74, 74);
+  background-color: rgb(77, 70, 70);
 }
 
 #chobu_main_header {
@@ -37,7 +37,7 @@ body {
 
 #chobu_main_header .logo {
   float: left;
-  width: 176px;
+  width: 150px;
   height: 44px;
   padding-top: 35px;
   font-family: "Times New Roman", Times, serif;
@@ -67,4 +67,22 @@ body {
   font-size: 3rem;
   color: rgb(36, 33, 33);
   /* padding-left: 20px;  */
+}
+
+#home_page_msg {
+  padding-left: 50px;
+}
+
+.indented {
+  text-indent: 50px;
+}
+
+.playlist_day_navi {
+  display: inline-block;
+  margin-left: 50px;
+}
+
+.playlist_day_navi .navi_item {
+  padding-left: 16px;
+  padding-right: 16px;
 }
