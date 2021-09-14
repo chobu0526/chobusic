@@ -10,6 +10,7 @@ html {
 a {
   text-decoration: none;
   color: #bdbdbd;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.377);
 }
 
 #chobu_main_header .chobu_header_navi a:hover {
@@ -18,7 +19,7 @@ a {
 
 body {
   min-width: 600px;
-  background-color: rgb(90, 82, 82);
+  background-color: rgb(88, 74, 74);
 }
 
 #chobu_main_header {
@@ -43,6 +44,7 @@ body {
   font-size: xx-large;
   font-weight: bold;
   color: #333131;
+  text-shadow: 1px 1px 1px rgba(153, 153, 153, 0.342);
 }
 
 #chobu_main_header nav .navi_item {
@@ -56,6 +58,7 @@ body {
   width: 940px;
   margin: auto;
   padding-top: 50px;
+  text-shadow: 1px 1px 1px #333131;
 }
 
 .subtitle,
